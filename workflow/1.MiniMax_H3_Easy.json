@@ -226,8 +226,7 @@
           "name": "VIDEO",
           "type": "VIDEO",
           "links": [
-            17,
-            28
+            17
           ]
         }
       ],
@@ -321,7 +320,7 @@
         "无",
         "qwen3vl-32B-MiniMax-H3-Q4_K_M.gguf",
         "MiniMax-H3-video_vae_fp16.safetensors",
-        "MiniMax-H3-audio_vae_fp32.safetensors"
+        "minimax_h3_audio_vae_fp32.safetensors"
       ]
     },
     {
@@ -609,13 +608,14 @@
         {
           "name": "video",
           "type": "VIDEO",
-          "link": 17
+          "link": 17,
+          "widget": null
         }
       ],
       "outputs": [
         {
           "name": "video",
-          "type": "VIDEO",
+          "type": "OUTPUT",
           "links": null
         }
       ],
@@ -827,14 +827,6 @@
       "AUDIO"
     ],
     [
-      17,
-      11,
-      0,
-      12,
-      0,
-      "VIDEO"
-    ],
-    [
       18,
       13,
       4,
@@ -889,6 +881,14 @@
       5,
       0,
       "MODEL"
+    ],
+    [
+      17,
+      11,
+      0,
+      12,
+      0,
+      "VIDEO"
     ]
   ],
   "groups": [
